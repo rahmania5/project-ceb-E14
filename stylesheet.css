@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  flex: auto;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.navbar {
+	position: relative;
+	z-index: 1;
+	background-color: #ffffff;
+}
+.navbar-brand {
+	font-size: 25px;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(img/sw.png);
+  background-size: cover;
+  background-position: absolute;
+  color: white;
+  text-align:center;
+  text-transform: auto;
+  width: 100%;
+  height: auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 100%;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.jelajahi {
+  background-color: #239b76;
+  margin-right: 10px;
+}
+
+.tentang {
+  background-color: #239b76;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: sticky;
+  top: 0;
+
+  z-index: 10;
+}
+.navbar {
+	position: relative;
+	z-index: 1
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a{
+  display: flex;
+  flex: auto;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.daftar:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+}
+
+.daftar {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+}
+
+.lesson-wrapper {
+  height: 600px;
+  padding-bottom: 50px;
+  text-align: center;
+  overflow: auto;
+}
+
+.heading {
+  border-bottom: 2px solid #dee7ec;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: #5f5d60;
+  margin-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.clear {
+  clear: left;
+}
+
+.lesson-icon {
+  position: relative;
+  opacity: 0.8;
+  display: box;
+  flex: auto;
+}
+
+.lesson-icon:hover{
+  opacity: 1;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.detail {
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.detail:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+footer {
+  background-color: #239b76;
+  color: #fff;
+  height: 120px;
+  padding: 20px 40px;
+}
+
+.footer-logo {
+  float: left;
+  margin: 10px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  list-style: none;
+}
